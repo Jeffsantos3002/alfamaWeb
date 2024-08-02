@@ -42,11 +42,11 @@
 				<!-- Dropdown fica ativo somente em telas menores que md -->
 				<div class="dropdown d-lg-none">
 					<a href="#"
-						class="d-flex align-items-center col-lg-5 mb-2 mb-lg-0 link-dark text-decoration-none dropdown-toggle show"
-						id="dropdownNavLink" data-bs-toggle="dropdown" aria-expanded="true">
+						class="d-flex align-items-center col-lg-5 mb-2 mb-lg-0 link-dark text-decoration-none dropdown-toggle "
+						id="dropdownNavLink" data-bs-toggle="dropdown" aria-expanded="false">
 						<img src="./assets/icons/menu.svg" alt="menu" title="menu" style="width: 40px;">
 					</a>
-					<ul class="dropdown-menu text-small shadow show" aria-labelledby="dropdownMenuButton"
+					<ul class="dropdown-menu text-small shadow" aria-labelledby="dropdownMenuButton"
 						style="position: absolute; inset: 0px auto auto 0px; margin: 0px; transform: translate3d(0px, 34px, 0px);"
 						data-popper-placement="bottom-start">
 						<li><a class="dropdown-item" href="#section-precatorias">Precatórios?</a></li>
@@ -58,28 +58,31 @@
 								<img src="./assets//icons/tel.svg" />
 								(00) 00000-0000
 							</a></li>
-
 					</ul>
 				</div>
 			</header>
 
-			<div class="d-flex align-items-center justify-content-center" >
-				<div class="section-children d-flex flex-column flex-xl-row align-items-center align-items-xl-start text-white">
+			<div class="d-flex align-items-center justify-content-center">
+				<div
+					class="section-children d-flex flex-column flex-xl-row align-items-center align-items-xl-start text-white">
 					<div class="w-100 d-flex flex-column align-items-xl-start">
 						<h1 class="topoH1 mb-5">Lorem ipsum dolor sit amet. <strong>Nam vehicula enim dui.</strong></h1>
 						<div class="w-100 d-flex justify-content-end position-relative d-none d-xl-flex">
-							<p class="topoSubTitle position-absolute start-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+							<p class="topoSubTitle position-absolute start-0">Lorem ipsum dolor sit amet, consectetur
+								adipiscing elit.
 								Nam vehicula enim dui. Cras vitae euismod metus.</p>
 							<img src="./assets/casalidosos.png" class="imgIdosos" alt="casalidosos" title="casalidosos">
 						</div>
-						<p class="topoSubTitle d-xl-none">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vehicula enim
+						<p class="topoSubTitle d-xl-none">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
+							vehicula enim
 							dui. Cras vitae euismod metus.</p>
-						<img src="./assets/casalidosos.png" class="imgIdosos d-xl-none" alt="casalidosos" title="casalidosos">
+						<img src="./assets/casalidosos.png" class="imgIdosos d-xl-none" alt="casalidosos"
+							title="casalidosos">
 					</div>
 
 
 					<!-- form -->
-					 <div class="form-topo mb-3  text-dark d-none d-xl-flex flex-column" id="section-precatorias">
+					<div class="form-topo mb-3  text-dark d-none d-xl-flex flex-column" id="section-precatorias">
 						<div class="bg-white p-3" style="  border-radius: 25px;">
 							<h2 class="fs-4 text">Precisa de nossa ajuda?</h2>
 							<h4 class="fs-6 text fw-normal">Preencha o formulário abaixo e fale conosco</h4>
@@ -88,7 +91,7 @@
 									<img class="mr-5" src="./assets/icons/user.svg" />
 									<input class="border-0 p-0" type="text" id="name" name="name" placeholder="Nome">
 								</div>
-	
+
 								<div class=" campoForm">
 									<img class="mr-5" src="./assets/icons/country.svg" />
 									<select class="border-0 p-0" id="estado" name="estado">
@@ -121,34 +124,40 @@
 										<option value="SE">Sergipe (SE)</option>
 										<option value="TO">Tocantins (TO)</option>
 									</select>
-	
+
 								</div>
 								<div class=" campoForm">
 									<img class="mr-5" src="./assets/icons/tel.svg" />
-									<input class="border-0 p-0" type="tel" id="telefone" name="telefone" placeholder="Telefone">
+									<input class="border-0 p-0" type="tel" id="telefone" name="telefone"
+										placeholder="Telefone">
 								</div>
 								<div class=" campoForm">
 									<img class="mr-5" src="./assets/icons/user.svg" />
-									<input class="border-0 p-0" type="emailo" id="email" name="email" placeholder="E-mail">
+									<input class="border-0 p-0" type="emailo" id="email" name="email"
+										placeholder="E-mail">
 								</div>
 								<div class=" campoForm">
 									<img class="mr-5" src="./assets/icons/money.svg" />
 									<input class="border-0 p-0" type="text" id="precatorio" name="precatorio"
 										placeholder="Valor do precatório">
 								</div>
-	
+
 								<div class=" campoForm">
-									<input class="border-0 p-0" type="text" id="processo" name="processo" placeholder="Número do processo">
+									<input class="border-0 p-0" type="text" id="processo" name="processo"
+										placeholder="Número do processo">
 								</div>
 								<div class=" d-flex flex-row align-items-center my-3">
-									<input class="border-0 p-0 mr-3" type="checkbox" id="termos" name="termos" style="width: 23px; height: 22px;" required>
-									<label class="mb-0 ms-2" style="font-size: 12px;" >Aceito a política de privacidade</label>
+									<input class="border-0 p-0 mr-3" type="checkbox" id="termos" name="termos"
+										style="width: 23px; height: 22px;" required>
+									<label class="mb-0 ms-2" style="font-size: 12px;">Aceito a política de
+										privacidade</label>
 								</div>
-	
-								<button class="btn-lead rounded-pill text-dark" type="submit"><strong>Enviar</strong></button>
+
+								<button class="btn-lead rounded-pill text-dark"
+									type="submit"><strong>Enviar</strong></button>
 							</form>
 						</div>
-					 </div>
+					</div>
 					<!-- form -->
 
 				</div>
@@ -167,69 +176,72 @@
 				<h4 class="fs-6 text fw-normal">Preencha o formulário abaixo e fale conosco</h4>
 				<form id="contactForm-2" action="./mails/envio.php" method="post">
 					<div class="campoForm">
-							<img class="mr-5" src="./assets/icons/user.svg" />
-							<input class="border-0 p-0" type="text" id="name-2" name="name" placeholder="Nome">
+						<img class="mr-5" src="./assets/icons/user.svg" />
+						<input class="border-0 p-0" type="text" id="name-2" name="name" placeholder="Nome">
 					</div>
 
 					<div class="campoForm">
-							<img class="mr-5" src="./assets/icons/country.svg" />
-							<select class="border-0 p-0" id="estado-2" name="estado">
-									<option value="" disabled selected>Estado/UF</option>
-									<option value="AC">Acre (AC)</option>
-									<option value="AL">Alagoas (AL)</option>
-									<option value="AP">Amapá (AP)</option>
-									<option value="AM">Amazonas (AM)</option>
-									<option value="BA">Bahia (BA)</option>
-									<option value="CE">Ceará (CE)</option>
-									<option value="DF">Distrito Federal (DF)</option>
-									<option value="ES">Espírito Santo (ES)</option>
-									<option value="GO">Goiás (GO)</option>
-									<option value="MA">Maranhão (MA)</option>
-									<option value="MT">Mato Grosso (MT)</option>
-									<option value="MS">Mato Grosso do Sul (MS)</option>
-									<option value="MG">Minas Gerais (MG)</option>
-									<option value="PA">Pará (PA)</option>
-									<option value="PB">Paraíba (PB)</option>
-									<option value="PR">Paraná (PR)</option>
-									<option value="PE">Pernambuco (PE)</option>
-									<option value="PI">Piauí (PI)</option>
-									<option value="RJ">Rio de Janeiro (RJ)</option>
-									<option value="RN">Rio Grande do Norte (RN)</option>
-									<option value="RS">Rio Grande do Sul (RS)</option>
-									<option value="RO">Rondônia (RO)</option>
-									<option value="RR">Roraima (RR)</option>
-									<option value="SC">Santa Catarina (SC)</option>
-									<option value="SP">São Paulo (SP)</option>
-									<option value="SE">Sergipe (SE)</option>
-									<option value="TO">Tocantins (TO)</option>
-							</select>
+						<img class="mr-5" src="./assets/icons/country.svg" />
+						<select class="border-0 p-0" id="estado-2" name="estado">
+							<option value="" disabled selected>Estado/UF</option>
+							<option value="AC">Acre (AC)</option>
+							<option value="AL">Alagoas (AL)</option>
+							<option value="AP">Amapá (AP)</option>
+							<option value="AM">Amazonas (AM)</option>
+							<option value="BA">Bahia (BA)</option>
+							<option value="CE">Ceará (CE)</option>
+							<option value="DF">Distrito Federal (DF)</option>
+							<option value="ES">Espírito Santo (ES)</option>
+							<option value="GO">Goiás (GO)</option>
+							<option value="MA">Maranhão (MA)</option>
+							<option value="MT">Mato Grosso (MT)</option>
+							<option value="MS">Mato Grosso do Sul (MS)</option>
+							<option value="MG">Minas Gerais (MG)</option>
+							<option value="PA">Pará (PA)</option>
+							<option value="PB">Paraíba (PB)</option>
+							<option value="PR">Paraná (PR)</option>
+							<option value="PE">Pernambuco (PE)</option>
+							<option value="PI">Piauí (PI)</option>
+							<option value="RJ">Rio de Janeiro (RJ)</option>
+							<option value="RN">Rio Grande do Norte (RN)</option>
+							<option value="RS">Rio Grande do Sul (RS)</option>
+							<option value="RO">Rondônia (RO)</option>
+							<option value="RR">Roraima (RR)</option>
+							<option value="SC">Santa Catarina (SC)</option>
+							<option value="SP">São Paulo (SP)</option>
+							<option value="SE">Sergipe (SE)</option>
+							<option value="TO">Tocantins (TO)</option>
+						</select>
 					</div>
 
 					<div class="campoForm">
-							<img class="mr-5" src="./assets/icons/tel.svg" />
-							<input class="border-0 p-0" type="tel" id="telefone-2" name="telefone" placeholder="Telefone">
+						<img class="mr-5" src="./assets/icons/tel.svg" />
+						<input class="border-0 p-0" type="tel" id="telefone-2" name="telefone" placeholder="Telefone">
 					</div>
 					<div class="campoForm">
-							<img class="mr-5" src="./assets/icons/user.svg" />
-							<input class="border-0 p-0" type="email" id="email-2" name="email" placeholder="E-mail">
+						<img class="mr-5" src="./assets/icons/user.svg" />
+						<input class="border-0 p-0" type="email" id="email-2" name="email" placeholder="E-mail">
 					</div>
 					<div class="campoForm">
-							<img class="mr-5" src="./assets/icons/money.svg" />
-							<input class="border-0 p-0" type="text" id="precatorio-2" name="precatorio" placeholder="Valor do precatório">
+						<img class="mr-5" src="./assets/icons/money.svg" />
+						<input class="border-0 p-0" type="text" id="precatorio-2" name="precatorio"
+							placeholder="Valor do precatório">
 					</div>
 
 					<div class="campoForm">
-							<input class="border-0 p-0" type="text" id="processo-2" name="processo" placeholder="Número do processo">
+						<input class="border-0 p-0" type="text" id="processo-2" name="processo"
+							placeholder="Número do processo">
 					</div>
 					<div class="d-flex flex-row align-items-center my-3">
-							<input class="border-0 p-0 mr-3" type="checkbox" id="termos-2" name="termos" style="width: 23px; height: 22px;" required>
-							<label class="mb-0 ms-2" style="font-size: 12px;">Aceito a política de privacidade</label>
+						<input class="border-0 p-0 mr-3" type="checkbox" id="termos-2" name="termos"
+							style="width: 23px; height: 22px;" required>
+						<label class="mb-0 ms-2" style="font-size: 12px;">Aceito a política de privacidade</label>
 					</div>
 
 					<button class="btn-lead rounded-pill text-dark" type="submit">
 						<strong>Enviar</strong>
 					</button>
-			</form>
+				</form>
 			</div>
 		</section>
 		<!-- form -->
@@ -248,16 +260,21 @@
 					<div class="order-2 order-xl-1 p-5">
 						<h3 class="fs-2 text" style="color: #065C99; font-weight: 600;">Quem Somos?</h3>
 						<p class="fs-6 text">
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vehicula enim dui. Cras vitae euismod
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vehicula enim dui. Cras vitae
+							euismod
 							metus.
 							In aliquam, urna posuere egestas dignissim, nulla dolor.
 						</p>
 						<p class="fs-6 text">
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vehicula enim dui. Cras vitae euismod
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vehicula enim dui. Cras vitae
+							euismod
 							metus.
-							In aliquam, urna posuere egestas dignissim, nulla dolor pretium risus, ac imperdiet erat erat quis nibh.
-							Quisque viverra volutpat eros vitae vehicula. Pellentesque tincidunt, lacus eu tincidunt finibus. <br>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vehicula enim dui. Cras vitae euismod
+							In aliquam, urna posuere egestas dignissim, nulla dolor pretium risus, ac imperdiet erat
+							erat quis nibh.
+							Quisque viverra volutpat eros vitae vehicula. Pellentesque tincidunt, lacus eu tincidunt
+							finibus. <br>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vehicula enim dui. Cras vitae
+							euismod
 							metus.
 							Pellentesque tincidunt, lacus eu tincidunt finibus.
 						</p>
@@ -270,16 +287,23 @@
 					</div>
 
 					<div class="p-5">
-						<h3 class="fs-2 text" style="color: #065C99; font-weight: 600;">Lorem ipsum dolor sit amet, consectetur
+						<h3 class="fs-2 text" style="color: #065C99; font-weight: 600;">Lorem ipsum dolor sit amet,
+							consectetur
 							adipiscing elit. Nam vehicula enim dui.</h3>
 						<p class="fs-6 text">
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vehicula enim dui. Cras vitae euismod metus.
-							In aliquam, urna posuere egestas dignissim, nulla dolor pretium risus, ac imperdiet erat erat quis nibh.
-							Quisque viverra volutpat eros vitae vehicula. Pellentesque tincidunt, lacus eu tincidunt finibus, tellus
-							quam dapibus quam, nec lacinia nunc nulla nec lectus. Nulla eleifend enim at justo tristique, vulputate
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vehicula enim dui. Cras vitae
+							euismod metus.
+							In aliquam, urna posuere egestas dignissim, nulla dolor pretium risus, ac imperdiet erat
+							erat quis nibh.
+							Quisque viverra volutpat eros vitae vehicula. Pellentesque tincidunt, lacus eu tincidunt
+							finibus, tellus
+							quam dapibus quam, nec lacinia nunc nulla nec lectus. Nulla eleifend enim at justo
+							tristique, vulputate
 							convallis turpis vestibulum. Nunc eget magna non velit aliquet imperdiet quis egestas leo.
-							Pellentesque tincidunt, lacus eu tincidunt finibus, tellus quam dapibus quam, nec lacinia nunc nulla nec
-							lectus. Nulla eleifend enim at justo tristique, vulputate convallis turpis vestibulum. Nunc eget magna non
+							Pellentesque tincidunt, lacus eu tincidunt finibus, tellus quam dapibus quam, nec lacinia
+							nunc nulla nec
+							lectus. Nulla eleifend enim at justo tristique, vulputate convallis turpis vestibulum. Nunc
+							eget magna non
 							velit aliquet imperdiet quis egestas leo.
 						</p>
 
@@ -298,31 +322,36 @@
 							<div class="card-title" style="border-radius: 15px;">
 								<p class="m-0 fs-4 text">Passo 1: Lorem</p>
 							</div>
-							<p class="py-3 px-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vehicula enim dui.</p>
+							<p class="py-3 px-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vehicula
+								enim dui.</p>
 						</div>
 						<div class="col-sm-5 bg-white shadow-sm p-3 mb-5 mx-sm-3 card-custom">
 							<div class="card-title" style="border-radius: 15px;">
 								<p class="m-0 fs-4 text">Passo 2: Lorem</p>
 							</div>
-							<p class="py-3 px-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vehicula enim dui.</p>
+							<p class="py-3 px-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vehicula
+								enim dui.</p>
 						</div>
 						<div class="col-sm-5 bg-white shadow-sm p-3 mb-5 mx-sm-3 card-custom">
 							<div class="card-title" style="border-radius: 15px;">
 								<p class="m-0 fs-4 text">Passo 3: Lorem</p>
 							</div>
-							<p class="py-3 px-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vehicula enim dui.</p>
+							<p class="py-3 px-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vehicula
+								enim dui.</p>
 						</div>
 						<div class="col-sm-5 bg-white shadow-sm p-3 mb-5 mx-sm-3 card-custom">
 							<div class="card-title" style="border-radius: 15px;">
 								<p class="m-0 fs-4 text">Passo 4: Lorem</p>
 							</div>
-							<p class="py-3 px-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vehicula enim dui.</p>
+							<p class="py-3 px-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vehicula
+								enim dui.</p>
 						</div>
 						<div class="col-sm-5 bg-white shadow-sm p-3 mb-5 mx-sm-3 card-custom">
 							<div class="card-title" style="border-radius: 15px;">
 								<p class="m-0 fs-4 text">Passo 5: Lorem</p>
 							</div>
-							<p class="py-3 px-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vehicula enim dui.</p>
+							<p class="py-3 px-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vehicula
+								enim dui.</p>
 						</div>
 					</div>
 				</div>
@@ -341,30 +370,34 @@
 					<div class="d-flex justify-content-center mb-3 mb-lg-0">
 						<img src="./assets/funcionario.png" alt="funcionario" title="funcionario">
 					</div>
-					<div class="topo">
+					<div class="topo container bg-transparent shadow-none">
 						<div class="card-escolher mb-3 shadow-sm">
-							<img src="./assets/icons/like.png" alt="like" title="like" style="height: 61px;" class="me-4">
+							<img src="./assets/icons/like.png" alt="like" title="like" style="height: 61px;"
+								class="me-4">
 							<div>
 								<h4 class="">Lorem Ipsum</h4>
 								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
 							</div>
 						</div>
 						<div class="card-escolher mb-3 shadow-sm">
-							<img src="./assets/icons/security.svg" alt="like" title="like" style="height: 61px;" class="me-4">
+							<img src="./assets/icons/security.svg" alt="like" title="like" style="height: 61px;"
+								class="me-4">
 							<div>
 								<h4 class="">Lorem Ipsum</h4>
 								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
 							</div>
 						</div>
 						<div class="card-escolher mb-3 shadow-sm">
-							<img src="./assets/icons/value.svg" alt="like" title="like" style="height: 61px;" class="me-4">
+							<img src="./assets/icons/value.svg" alt="like" title="like" style="height: 61px;"
+								class="me-4">
 							<div>
 								<h4 class="">Lorem Ipsum</h4>
 								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
 							</div>
 						</div>
 						<div class="card-escolher mb-3 shadow-sm">
-							<img src="./assets/icons/speed.svg" alt="like" title="like" style="height: 61px;" class="me-4">
+							<img src="./assets/icons/speed.svg" alt="like" title="like" style="height: 61px;"
+								class="me-4">
 							<div>
 								<h4 class="">Lorem Ipsum</h4>
 								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
@@ -381,16 +414,19 @@
 		<!-- section 5 -->
 		<section class="d-flex align-items-center justify-content-center py-5 px-2" id="section-faq">
 			<div class="d-flex flex-column align-items-center section-children">
-				<h1 class=" text-center fs-1 text mb-5"> <strong><span style="color: #065C99;">Dúvidas</span> e perguntas<span
-							style="color: #065C99;"> frequentes</span></strong>
+				<h1 class=" text-center fs-1 text mb-5"> <strong><span style="color: #065C99;">Dúvidas</span> e
+						perguntas<span style="color: #065C99;"> frequentes</span></strong>
 				</h1>
 				<div class="topo row justify-content-center">
-					<div class="col-sm-5 d-flex justify-content-center flex-column position-relative card-duvidas shadow-sm p-3 mb-5 mx-sm-3 h-100">
-						<h4 class="fs-5 text me-5" style="font-weight: 600;">Lorem ipsum dolor sit amet, consectetur a dipiscing elit.</h4>
-						<a class="arrow-link circle position-absolute" data-bs-toggle="collapse" href="#collapse-1" role="button"
-							aria-expanded="false" aria-controls="collapse-1" style="top: 30px; right: 20px;">
-							<svg width="16" height="23" viewBox="0 0 16 23" fill="none" xmlns="http://www.w3.org/2000/svg"
-								class="arrow-icon">
+					<div
+						class="col-sm-5 d-flex justify-content-center flex-column position-relative card-duvidas shadow-sm p-3 mb-5 mx-sm-3 h-100">
+						<h4 class="fs-5 text me-5" style="font-weight: 600;">Lorem ipsum dolor sit amet, consectetur a
+							dipiscing elit.</h4>
+						<a class="arrow-link circle position-absolute" data-bs-toggle="collapse" href="#collapse-1"
+							role="button" aria-expanded="false" aria-controls="collapse-1"
+							style="top: 30px; right: 20px;">
+							<svg width="16" height="23" viewBox="0 0 16 23" fill="none"
+								xmlns="http://www.w3.org/2000/svg" class="arrow-icon">
 								<path
 									d="M8.3409 21.5857L9.04801 22.2928L8.3409 22.9999L7.63379 22.2928L8.3409 21.5857ZM7.3409 1.58569C7.3409 1.03341 7.78861 0.585694 8.3409 0.585694C8.89318 0.585694 9.3409 1.03341 9.3409 1.58569L7.3409 1.58569ZM15.7147 15.6261L9.04801 22.2928L7.63379 20.8786L14.3005 14.2119L15.7147 15.6261ZM7.63379 22.2928L0.967126 15.6261L2.38134 14.2119L9.04801 20.8786L7.63379 22.2928ZM7.3409 21.5857L7.3409 1.58569L9.3409 1.58569L9.3409 21.5857L7.3409 21.5857Z" />
 							</svg>
@@ -398,18 +434,22 @@
 
 						<div class="collapse" id="collapse-1">
 							<div class="card card-body border-0 px-0" style="color: #636363;">
-								Some placeholder content for the collapse component. This panel is hidden by default but revealed when the
+								Some placeholder content for the collapse component. This panel is hidden by default but
+								revealed when the
 								user activates the relevant trigger.
 							</div>
 						</div>
 					</div>
 
-					<div class="col-sm-5 d-flex justify-content-center flex-column position-relative card-duvidas shadow-sm p-3 mb-5 mx-sm-3 h-100">
-						<h4 class="fs-5 text me-5" style="font-weight: 600;">Lorem ipsum dolor sit amet, consectetur a dipiscing elit.</h4>
-						<a class="arrow-link circle position-absolute" data-bs-toggle="collapse" href="#collapse-2" role="button"
-							aria-expanded="false" aria-controls="collapse-2" style="top: 30px; right: 20px;">
-							<svg width="16" height="23" viewBox="0 0 16 23" fill="none" xmlns="http://www.w3.org/2000/svg"
-								class="arrow-icon">
+					<div
+						class="col-sm-5 d-flex justify-content-center flex-column position-relative card-duvidas shadow-sm p-3 mb-5 mx-sm-3 h-100">
+						<h4 class="fs-5 text me-5" style="font-weight: 600;">Lorem ipsum dolor sit amet, consectetur a
+							dipiscing elit.</h4>
+						<a class="arrow-link circle position-absolute" data-bs-toggle="collapse" href="#collapse-2"
+							role="button" aria-expanded="false" aria-controls="collapse-2"
+							style="top: 30px; right: 20px;">
+							<svg width="16" height="23" viewBox="0 0 16 23" fill="none"
+								xmlns="http://www.w3.org/2000/svg" class="arrow-icon">
 								<path
 									d="M8.3409 21.5857L9.04801 22.2928L8.3409 22.9999L7.63379 22.2928L8.3409 21.5857ZM7.3409 1.58569C7.3409 1.03341 7.78861 0.585694 8.3409 0.585694C8.89318 0.585694 9.3409 1.03341 9.3409 1.58569L7.3409 1.58569ZM15.7147 15.6261L9.04801 22.2928L7.63379 20.8786L14.3005 14.2119L15.7147 15.6261ZM7.63379 22.2928L0.967126 15.6261L2.38134 14.2119L9.04801 20.8786L7.63379 22.2928ZM7.3409 21.5857L7.3409 1.58569L9.3409 1.58569L9.3409 21.5857L7.3409 21.5857Z" />
 							</svg>
@@ -417,18 +457,22 @@
 
 						<div class="collapse" id="collapse-2">
 							<div class="card card-body border-0 px-0" style="color: #636363;">
-								Some placeholder content for the collapse component. This panel is hidden by default but revealed when the
+								Some placeholder content for the collapse component. This panel is hidden by default but
+								revealed when the
 								user activates the relevant trigger.
 							</div>
 						</div>
 					</div>
 
-					<div class="col-sm-5 d-flex justify-content-center flex-column position-relative card-duvidas shadow-sm p-3 mb-5 mx-sm-3 h-100">
-						<h4 class="fs-5 text me-5" style="font-weight: 600;">Lorem ipsum dolor sit amet, consectetur a dipiscing elit.</h4>
-						<a class="arrow-link circle position-absolute" data-bs-toggle="collapse" href="#collapse-3" role="button"
-							aria-expanded="false" aria-controls="collapse-3" style="top: 30px; right: 20px;">
-							<svg width="16" height="23" viewBox="0 0 16 23" fill="none" xmlns="http://www.w3.org/2000/svg"
-								class="arrow-icon">
+					<div
+						class="col-sm-5 d-flex justify-content-center flex-column position-relative card-duvidas shadow-sm p-3 mb-5 mx-sm-3 h-100">
+						<h4 class="fs-5 text me-5" style="font-weight: 600;">Lorem ipsum dolor sit amet, consectetur a
+							dipiscing elit.</h4>
+						<a class="arrow-link circle position-absolute" data-bs-toggle="collapse" href="#collapse-3"
+							role="button" aria-expanded="false" aria-controls="collapse-3"
+							style="top: 30px; right: 20px;">
+							<svg width="16" height="23" viewBox="0 0 16 23" fill="none"
+								xmlns="http://www.w3.org/2000/svg" class="arrow-icon">
 								<path
 									d="M8.3409 21.5857L9.04801 22.2928L8.3409 22.9999L7.63379 22.2928L8.3409 21.5857ZM7.3409 1.58569C7.3409 1.03341 7.78861 0.585694 8.3409 0.585694C8.89318 0.585694 9.3409 1.03341 9.3409 1.58569L7.3409 1.58569ZM15.7147 15.6261L9.04801 22.2928L7.63379 20.8786L14.3005 14.2119L15.7147 15.6261ZM7.63379 22.2928L0.967126 15.6261L2.38134 14.2119L9.04801 20.8786L7.63379 22.2928ZM7.3409 21.5857L7.3409 1.58569L9.3409 1.58569L9.3409 21.5857L7.3409 21.5857Z" />
 							</svg>
@@ -436,18 +480,22 @@
 
 						<div class="collapse" id="collapse-3">
 							<div class="card card-body border-0 px-0" style="color: #636363;">
-								Some placeholder content for the collapse component. This panel is hidden by default but revealed when the
+								Some placeholder content for the collapse component. This panel is hidden by default but
+								revealed when the
 								user activates the relevant trigger.
 							</div>
 						</div>
 					</div>
 
-					<div class="col-sm-5 d-flex justify-content-center flex-column position-relative card-duvidas shadow-sm p-3 mb-5 mx-sm-3 h-100">
-						<h4 class="fs-5 text me-5" style="font-weight: 600;">Lorem ipsum dolor sit amet, consectetur a dipiscing elit.</h4>
-						<a class="arrow-link circle position-absolute" data-bs-toggle="collapse" href="#collapse-4" role="button"
-							aria-expanded="false" aria-controls="collapse-4" style="top: 30px; right: 20px;">
-							<svg width="16" height="23" viewBox="0 0 16 23" fill="none" xmlns="http://www.w3.org/2000/svg"
-								class="arrow-icon">
+					<div
+						class="col-sm-5 d-flex justify-content-center flex-column position-relative card-duvidas shadow-sm p-3 mb-5 mx-sm-3 h-100">
+						<h4 class="fs-5 text me-5" style="font-weight: 600;">Lorem ipsum dolor sit amet, consectetur a
+							dipiscing elit.</h4>
+						<a class="arrow-link circle position-absolute" data-bs-toggle="collapse" href="#collapse-4"
+							role="button" aria-expanded="false" aria-controls="collapse-4"
+							style="top: 30px; right: 20px;">
+							<svg width="16" height="23" viewBox="0 0 16 23" fill="none"
+								xmlns="http://www.w3.org/2000/svg" class="arrow-icon">
 								<path
 									d="M8.3409 21.5857L9.04801 22.2928L8.3409 22.9999L7.63379 22.2928L8.3409 21.5857ZM7.3409 1.58569C7.3409 1.03341 7.78861 0.585694 8.3409 0.585694C8.89318 0.585694 9.3409 1.03341 9.3409 1.58569L7.3409 1.58569ZM15.7147 15.6261L9.04801 22.2928L7.63379 20.8786L14.3005 14.2119L15.7147 15.6261ZM7.63379 22.2928L0.967126 15.6261L2.38134 14.2119L9.04801 20.8786L7.63379 22.2928ZM7.3409 21.5857L7.3409 1.58569L9.3409 1.58569L9.3409 21.5857L7.3409 21.5857Z" />
 							</svg>
@@ -455,18 +503,22 @@
 
 						<div class="collapse" id="collapse-4">
 							<div class="card card-body border-0 px-0" style="color: #636363;">
-								Some placeholder content for the collapse component. This panel is hidden by default but revealed when the
+								Some placeholder content for the collapse component. This panel is hidden by default but
+								revealed when the
 								user activates the relevant trigger.
 							</div>
 						</div>
 					</div>
 
-					<div class="col-sm-5 d-flex justify-content-center flex-column position-relative card-duvidas shadow-sm p-3 mb-5 mx-sm-3 h-100">
-						<h4 class="fs-5 text me-5" style="font-weight: 600;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
-						<a class="arrow-link circle position-absolute" data-bs-toggle="collapse" href="#collapse-5" role="button"
-							aria-expanded="false" aria-controls="collapse-5" style="top: 30px; right: 20px;">
-							<svg width="16" height="23" viewBox="0 0 16 23" fill="none" xmlns="http://www.w3.org/2000/svg"
-								class="arrow-icon">
+					<div
+						class="col-sm-5 d-flex justify-content-center flex-column position-relative card-duvidas shadow-sm p-3 mb-5 mx-sm-3 h-100">
+						<h4 class="fs-5 text me-5" style="font-weight: 600;">Lorem ipsum dolor sit amet, consectetur
+							adipiscing elit.</h4>
+						<a class="arrow-link circle position-absolute" data-bs-toggle="collapse" href="#collapse-5"
+							role="button" aria-expanded="false" aria-controls="collapse-5"
+							style="top: 30px; right: 20px;">
+							<svg width="16" height="23" viewBox="0 0 16 23" fill="none"
+								xmlns="http://www.w3.org/2000/svg" class="arrow-icon">
 								<path
 									d="M8.3409 21.5857L9.04801 22.2928L8.3409 22.9999L7.63379 22.2928L8.3409 21.5857ZM7.3409 1.58569C7.3409 1.03341 7.78861 0.585694 8.3409 0.585694C8.89318 0.585694 9.3409 1.03341 9.3409 1.58569L7.3409 1.58569ZM15.7147 15.6261L9.04801 22.2928L7.63379 20.8786L14.3005 14.2119L15.7147 15.6261ZM7.63379 22.2928L0.967126 15.6261L2.38134 14.2119L9.04801 20.8786L7.63379 22.2928ZM7.3409 21.5857L7.3409 1.58569L9.3409 1.58569L9.3409 21.5857L7.3409 21.5857Z" />
 							</svg>
@@ -474,18 +526,22 @@
 
 						<div class="collapse" id="collapse-5">
 							<div class="card card-body border-0 px-0" style="color: #636363;">
-								Some placeholder content for the collapse component. This panel is hidden by default but revealed when the
+								Some placeholder content for the collapse component. This panel is hidden by default but
+								revealed when the
 								user activates the relevant trigger.
 							</div>
 						</div>
 					</div>
 
-					<div class="col-sm-5 d-flex justify-content-center flex-column position-relative card-duvidas shadow-sm p-3 mb-5 mx-sm-3 h-100">
-						<h4 class="fs-5 text me-5" style="font-weight: 600;">Lorem ipsum dolor sit amet, consectetur a dipiscing elit.</h4>
-						<a class="arrow-link circle position-absolute" data-bs-toggle="collapse" href="#collapse-6" role="button"
-							aria-expanded="false" aria-controls="collapse-6" style="top: 30px; right: 20px;">
-							<svg width="16" height="23" viewBox="0 0 16 23" fill="none" xmlns="http://www.w3.org/2000/svg"
-								class="arrow-icon">
+					<div
+						class="col-sm-5 d-flex justify-content-center flex-column position-relative card-duvidas shadow-sm p-3 mb-5 mx-sm-3 h-100">
+						<h4 class="fs-5 text me-5" style="font-weight: 600;">Lorem ipsum dolor sit amet, consectetur a
+							dipiscing elit.</h4>
+						<a class="arrow-link circle position-absolute" data-bs-toggle="collapse" href="#collapse-6"
+							role="button" aria-expanded="false" aria-controls="collapse-6"
+							style="top: 30px; right: 20px;">
+							<svg width="16" height="23" viewBox="0 0 16 23" fill="none"
+								xmlns="http://www.w3.org/2000/svg" class="arrow-icon">
 								<path
 									d="M8.3409 21.5857L9.04801 22.2928L8.3409 22.9999L7.63379 22.2928L8.3409 21.5857ZM7.3409 1.58569C7.3409 1.03341 7.78861 0.585694 8.3409 0.585694C8.89318 0.585694 9.3409 1.03341 9.3409 1.58569L7.3409 1.58569ZM15.7147 15.6261L9.04801 22.2928L7.63379 20.8786L14.3005 14.2119L15.7147 15.6261ZM7.63379 22.2928L0.967126 15.6261L2.38134 14.2119L9.04801 20.8786L7.63379 22.2928ZM7.3409 21.5857L7.3409 1.58569L9.3409 1.58569L9.3409 21.5857L7.3409 21.5857Z" />
 							</svg>
@@ -493,11 +549,12 @@
 
 						<div class="collapse" id="collapse-6">
 							<div class="card card-body border-0 px-0" style="color: #636363;">
-								Some placeholder content for the collapse component. This panel is hidden by default but revealed when the
+								Some placeholder content for the collapse component. This panel is hidden by default but
+								revealed when the
 								user activates the relevant trigger.
 							</div>
 						</div>
-					</div>					
+					</div>
 				</div>
 			</div>
 		</section>
@@ -507,37 +564,41 @@
 	<footer class="w-100  align-items-center justify-content-center pt-5 text-white" style="background-color: #19407E;">
 		<div class=" d-flex flex-column align-items-center ">
 			<section class="footer-section1  section-children d-flex flex-column flex-xl-row justify-content-center ">
-					<div class="mx-3 pb-3 align-items-start">
-						<img class="me-2" src="./assets/logo.svg" alt="log" title="logo" width="258px" class="mb-3">
-						<p class="m-0">CNPJ: 00.000.000/0000-00</p>
+				<div class="mx-3 pb-3 align-items-start">
+					<img class="me-2" src="./assets/logo.svg" alt="log" title="logo" width="258px" class="mb-3">
+					<p class="m-0">CNPJ: 00.000.000/0000-00</p>
+				</div>
+				<div class="mx-3 mb-3 ">
+					<h6 class="mb-3">Nosso Telefone</h6>
+					<div class="d-flex flex-row align-items-start">
+						<img class="me-2" src="./assets//icons/tel-yellow.svg" alt="telefone" title="telefone">
+						<p class="m-0">(00) 00000-0000</p>
 					</div>
-					<div class="mx-3 mb-3 ">
-						<h6 class="mb-3">Nosso Telefone</h6>
-						<div class="d-flex flex-row align-items-start">
-							<img class="me-2" src="./assets//icons/tel-yellow.svg" alt="telefone" title="telefone">
-							<p class="m-0">(00) 00000-0000</p>
-						</div>
+				</div>
+				<div class="mx-3 mb-3">
+					<h6 class="mb-3">Nosso Endereço</h6>
+					<div class="d-flex flex-row align-items-start">
+						<img class="me-2" src="./assets/icons/localization.svg" alt="localizacao" title="localizacao">
+						<p class="m-0 localization">Lorem ipsum dolor sit amet am, nº 000 – Lorem ipsum dolor –
+							Lorem/XX, CEP: 00.000-000</p>
 					</div>
-					<div class="mx-3 mb-3">
-						<h6 class="mb-3">Nosso Endereço</h6>
-						<div class="d-flex flex-row align-items-start" >
-							<img class="me-2" src="./assets/icons/localization.svg" alt="localizacao" title="localizacao">
-							<p class="m-0 localization" >Lorem ipsum dolor sit amet am, nº 000 – Lorem ipsum dolor – Lorem/XX, CEP: 00.000-000</p>
-						</div>
-					</div>
-					<div class="mx-3 pb-3
+				</div>
+				<div class="mx-3 pb-3
 					">
 					<h6 class="mb-3">Nosso E-mail</h6>
-						<div class="d-flex flex-row align-items-start">
-							<img class="me-2" src="./assets/icons/email-yellow.svg" alt="email" title="email">
-							<p class="m-0">contato@contatodeteste.com.br</p>
-						</div>
+					<div class="d-flex flex-row align-items-start">
+						<img class="me-2" src="./assets/icons/email-yellow.svg" alt="email" title="email">
+						<p class="m-0">contato@contatodeteste.com.br</p>
 					</div>
-				
-				
+				</div>
+
+
 			</section>
-			<section class="w-100 py-4 px-5 footer-section2 d-flex flex-column flex-md-row  justify-content-between align-items-center">
-				<p class="mb-md-2 mb-lg-0" style="font-size: 13px; font-weight: 400;">Copyright © 2024 - Todos os direitos reservados à <span class="text-decoration-underline" style="font-weight: 600;">Esta Empresa.</span></p>
+			<section
+				class="w-100 py-4 px-5 footer-section2 d-flex flex-column flex-md-row  justify-content-between align-items-center">
+				<p class="mb-md-2 mb-lg-0 text-center" style="font-size: 13px; font-weight: 400;">Copyright © 2024 -
+					Todos os direitos reservados à <span class="text-decoration-underline"
+						style="font-weight: 600;">Esta Empresa.</span></p>
 				<img src="./assets/logo-branca.png" alt="logo" title="logo" width="100px" height="13px">
 			</section>
 		</div>
