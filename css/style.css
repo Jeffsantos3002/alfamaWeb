@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif !important;
+  background-color: #F6F8FB !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.topo {
+  width: 100%;
+
+}
+.section-children{
+  width: 100%;
+  max-width: 1145px;
+}
+.topo-bg{
+  background-image: url("../assets/waves-1.png");
+  background-size: cover;
+  background-color: #065C99;
+}
+.topoH1{
+  max-width: 588px;
+  width: 100%;
+  font-size: 52px;
+}
+.btn-lead{
+  background-color: #F6DE6C !important;
+}
+.btn-lead p {
+  color: #065C99;
+  margin: 0;
+}
+.topoSubTitle{
+  max-width: 345px;
+  width: 100%;
+  font-size: 24px;
+}
+.imgIdosos{
+  max-width: 619px;
+  width: 100%;
+}
+.form-topo{
+  max-width: 357px;
+  width: 100%;
+  z-index: 2;
+}
+.campoForm{
+  background-color: #F5F7F9 !important;
+  padding: 15px 10px !important;
+  margin-top: 15px;
+}
+input, select{
+  background-color: #F5F7F9;
+  width: 90%;
+}
+input::placeholder {
+  color: #333333;
+}
+input:focus, select:focus {
+  outline: none  !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+.gradiente{
+  background: linear-gradient(to top, #033151, #03315100);
+   height: 20%; 
+   width: 100%; 
+   position:absolute;
+   bottom: 0;
+   
+   border-radius: 0 0 0  20px;
+}
+
+.section-form2{
+  margin-top: -20px;
+  width: 100%;
+}
+.form2{
+  max-width: 382px;
+  width: 100%;
+  border-radius: 25px;
+  z-index: 2;
+}
+.sections-link{
+  font-size: 14px;
+  color: white !important;
+}
+.dropdown-toggle::after {
+  display: none; /* Esconde a seta */
+}
+
+/* Caso a seta esteja sendo adicionada por um ícone, tente esconder a seta diretamente */
+.dropdown-toggle .navbar-toggler-icon {
+  display: none;
+}
+
+
+.container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+input, textarea {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  background-color: #007BFF;
+  color: white;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.responsive-img {
+  width: 100% !important;
+}
+.card-custom {
+  border-radius: 2rem !important;
+  width: 100%;
+  max-width: 556px;
+}
+.card-title{
+  background-color:#065C99;
+  padding: 10px 20px;
+  color: white;
+  font-weight: 900;
+  width: 240px;
+
+  margin-top: -40px;
+}
+
+.card-escolher{
+  border-radius: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  background: white;
+  padding: 30px 20px;
+
+  box-shadow: 5px;
+
+}
+.card-duvidas{
+  background: white;
+  padding: 20px 20px;
+  
+  width: 100%;
+  max-width: 555px !important;
+
+  border-radius: 20px;
+}
+.footer-section2{
+  background-color: #0B2B5F;
+}
+.localization{
+  width: 257px;
+}
+
+.error-message {
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+/* media query */
+
+
+@media (min-width: 1199px) {
+  .responsive-img {
+    width: auto !important;
+  }
+}
+
+@media (max-width: 1199px) {
+  .container{
+    max-width: 500px !important;
+    border-radius: 50px !important;
+  }  
+}
+
+@media (max-width: 1199px) {
+  .localization{
+    width: 100%;
+  }  
+}
+/* colapse */
+
+.circle {
+  background-color: #00578C;
+  padding: 5px 10px;
+  border-radius: 50px;
+}
+
+.arrow-icon {
+  fill: #F6DE6C;
+  transition: transform 0.3s ease; /* Suaviza a rotação */
+  transform: rotate(180deg); /* Rotaciona o SVG em 180° */
+
+}
+
+.circle-none {
+  background: none !important;
+  border: #0056b3 solid 2px;
+}
+
+.rotate-180 {
+  transform: rotate(0deg); /* Rotaciona o SVG em 180° */
+  fill: #0056b3;
+}
+
+
